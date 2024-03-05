@@ -1,0 +1,32 @@
+.symbolContainer{
+  display: flex;
+  width: 80%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  .logo{
+    width: 31.25rem;
+    height: 31.25rem;
+    filter: grayscale(80%);
+    filter: opacity(25%);
+  }
+   @keyframes logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    
+    @media (prefers-reduced-motion: no-preference) {
+      .logoReact:nth-of-type(1) .logo {
+        animation: logo-spin infinite 20s linear;
+      }
+    }
+}
+
+
+ 
+  

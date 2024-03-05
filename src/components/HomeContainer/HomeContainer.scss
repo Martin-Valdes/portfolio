@@ -1,0 +1,48 @@
+.homeContainer{
+    background-color: rgb(66, 66, 66);
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    .textImg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 37.5rem;
+        height: 12.5rem;
+        .imgPerfil{
+            margin: 6.25rem .625rem 0 0;
+        }
+        .secText{
+            margin-top: 6.25rem;
+            font-family: "Montserrat", sans-serif;
+            
+            .pName{
+                font-weight: 400;
+                color: white;
+                margin: 0;
+            }
+            .nFront{
+                font-weight: 200;
+                color: rgb(255, 255, 255);
+                margin: 0;
+            }
+        }
+        
+    }
+    .pPresent{
+        width: 25rem;
+        color: white;
+        margin-top: 9.375rem;
+        background-color: rgba($color: #000000, $alpha: 0.7);
+        padding: .625rem;
+        height: 25rem;
+        border-radius: .625rem;
+        font-size: 1.375rem;
+        .pDescription{
+            margin-top: 0;
+        }
+    }
+    
+    
+}
