@@ -1,15 +1,17 @@
-import React from 'react'
-import './App.scss'
-import HomeContainer from './components/HomeContainer/HomeContainer'
+import React from 'react';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import HomeContainer from './components/HomeContainer/HomeContainer';
+
+import './App.scss';
 
 function App() {
 
   return (
-    <>
-      <div className='appContainer'>
-        <HomeContainer/>
-      </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+           <Route path='/' element= {<HomeContainer/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

@@ -1,0 +1,16 @@
+.worksContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #666262;
+    background-image: url("../../img/adrien-olichon-RCAhiGJsUUE-unsplash.jpg");
+    background-image: linear-gradient(to top, #22577a, transparent);
+    backdrop-filter: .625rem;
+    height: 100vh;
+    .titleWork{
+        margin: 0;
+        font-size: 4.5rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+    }
+}
