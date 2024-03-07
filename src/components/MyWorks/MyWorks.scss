@@ -2,12 +2,51 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #666262;
     background-image: url("../../img/adrien-olichon-RCAhiGJsUUE-unsplash.jpg");
     background-image: linear-gradient(to top, #22577a, transparent);
     backdrop-filter: .625rem;
-    height: 100vh;
+    padding-bottom: 6.25rem;
+    
+    .cardsWorks{
+       display: flex; 
+       flex-direction: column;
+       width: 100%;
+       margin-left: 6.25rem;
+       .sectionCard{
+        display: flex;
+        align-items: center;
+
+            .logo{
+                width: 4rem;
+                height: 4rem;
+                position: relative;
+                
+            }
+            .card{
+                margin: .625rem;
+                width: 18.75rem;
+            }
+            .divIcons{
+                display: flex;
+                flex-wrap: wrap;
+                gap: .3125rem;
+                width: 12.5rem;
+                
+                .symbol{
+                    .symbolContainer{
+                        height: auto;
+                    }
+                    
+                }
+            }
+       }
+        
+    }
     .titleWork{
+        width: 18.75rem;
         margin: 0;
         font-size: 4.5rem;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

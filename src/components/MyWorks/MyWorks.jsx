@@ -1,14 +1,89 @@
 import React from 'react'
+import AOS from 'aos';
+import BackReact from "../BackReact/BackReact"
 
 import './MyWorks.scss'
 
+AOS.init();
+
 const MyWorks = () => {
+
+
   return (
-    <div className="worksContainer">
-        <h2  className='titleWork bg-blue-500'>My Works</h2>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      Botón
-    </button>
+    <div  className="worksContainer">
+        <h2 className='titleWork '>My Works</h2>
+        <section className='cardsWorks'>
+          <section className='sectionCard'>
+            <div data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              class=" card bg-white shadow-md rounded-md p-4">
+              <h3 class="text-lg font-bold mb-2">Automotora</h3>
+              <img src="../../img/automotora.gif" alt="" />
+            </div>
+            <div className='divIcons'>
+               <img data-aos="fade-left"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine" className='logo' src="../../img/jsLogo.png" alt="" />
+              <img data-aos="fade-left"
+                data-aos-offset="100"
+                data-aos-easing="ease-in-sine" className='logo' src="../../img/html-5.png" alt="" />
+              <img data-aos="fade-right"
+                data-aos-offset="100"
+                data-aos-easing="ease-in-sine" className='logo' src="../../img/sass.svg" alt="" />
+              <img data-aos="fade-right"
+                data-aos-offset="100"
+                data-aos-easing="ease-in-sine" className='logo' src="../../img/firebase.png" alt="" />
+                <img data-aos="fade-right"
+                data-aos-offset="100"
+                data-aos-easing="ease-in-sine" className='logo' src="../../img/tailwind.png" alt="" />
+                
+              <div className='symbol'><BackReact /></div>
+            </div>
+           
+          </section>
+          <section className='sectionCard'>
+            <div data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine"
+              class=" card bg-white shadow-md rounded-md p-4">
+              <h3 class="text-lg font-bold mb-2">eCommerce</h3>
+              <img src="../../img/ecommerce.gif" alt="" />
+            </div>
+            <div className='divIcons'>
+               <img data-aos="fade-left"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine" className='logo' src="../../img/jsLogo.png" alt="" />
+              <img data-aos="fade-left"
+                data-aos-offset="100"
+                data-aos-easing="ease-in-sine" className='logo' src="../../img/html-5.png" alt="" />
+              <img data-aos="fade-right"
+                data-aos-offset="100"
+                data-aos-easing="ease-in-sine" className='logo' src="../../img/sass.svg" alt="" />
+              <div className='symbol' ><BackReact /></div>
+            </div>
+          </section>  
+          <section className='sectionCard'>
+            <div data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine"
+              class=" card bg-white shadow-md rounded-md p-4">
+              <h3 class="text-lg font-bold mb-2">Título de la Tarjeta</h3>
+              <p class="text-gray-700 mb-4">Contenido de la tarjeta...</p>
+            </div>
+          </section>
+          <section className='sectionCard'>
+            <div data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine"
+              class=" card bg-white shadow-md rounded-md p-4">
+              <h3 class="text-lg font-bold mb-2">Título de la Tarjeta</h3>
+              <p class="text-gray-700 mb-4">Contenido de la tarjeta...</p>
+            </div>
+          </section>
+          
+        </section>
+        
     </div>
   )
 }
