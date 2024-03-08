@@ -12,7 +12,7 @@ const HomeContainer = () => {
          <div className='homeContainer'>
         <div className='sectionImg'>
             <div className='textImg'>
-                <img className='imgPerfil' src="../../img/img-profile.svg " alt="img-perfil" />
+                <img className='imgPerfil' src="../../img/imgProfile.webp" alt="img-perfil" />
                 <section className='secText'>
                     <h1 className='pName'>Fernando Valdés </h1>
                     <p className='nFront'>Frontend Web Developer</p>
