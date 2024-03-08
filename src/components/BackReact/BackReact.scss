@@ -2,12 +2,18 @@
   display: flex;
   height: 100%;
   align-items: center;
+  justify-content: center;
   position: absolute;
+  background: rgb(102,98,98);
+        background: linear-gradient(0deg, #7e7e7e 0%, rgb(29, 28, 28) 38%);
+        z-index: -1;
+        width: 80%;
   .logo{
     width: 31.25rem;
     height: 31.25rem;
     filter: grayscale(80%);
     filter: opacity(25%);
+    
     
   }
    @keyframes logo-spin {
