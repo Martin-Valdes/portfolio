@@ -18,7 +18,8 @@
        
        .sectionCard{
         display: flex;
-        align-items: center;    
+        align-items: center;
+        
 
             .logo{
                 width: 4rem;
@@ -29,7 +30,9 @@
             .card{
                 margin: .625rem;
                 width: 18.75rem;
+                
             }
+           
             .divIcons{
                 display: flex;
                 flex-wrap: wrap;
@@ -62,5 +65,5 @@
 }
 
 @media (max-width:1300px){
-    
+
 }
