@@ -18,6 +18,7 @@
        .sectionCard{
         display: flex;
         align-items: center;
+        width: 100%;
             .logo{
                 width: 4rem;
                 height: 4rem;
@@ -68,6 +69,78 @@
   
 }
 
-@media (max-width:1300px){
+@media (max-width:900px){
+    .worksContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #666262;
+        background-image: url("../../img/adrien-olichon-RCAhiGJsUUE-unsplash.jpg");
+        background-image: linear-gradient(to top, #22577a, transparent);
+        backdrop-filter: .625rem;
+        padding-bottom: 6.25rem;
+        
+        .cardsWorks{
+           display: flex; 
+           flex-direction: column;
+           width: 100%;
+           margin-left: 0;
+           .sectionCard{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+                .logo{
+                    width: 2rem;
+                    height: 2rem;
+                    position: relative;
+                    
+                }
+                .card{
+                    margin: .625rem;
+                    width: 18.75rem;
+                    height: 14.375rem;
+                    background: rgb(146,25,25);
+                    background: radial-gradient(circle, rgba(146,25,25,1) 66%, rgba(38,38,38,1) 87%, rgba(38,38,38,1) 92%, rgba(38,38,38,1) 99%);
+                    
+                    img{
+                        width: 17.5rem;
+                        height: 11.875rem;
+                    }
+                }
+               
+                .divIcons{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: .3125rem;
+                    width: 12.8125rem;
+                    
+                    .symbol{
+                        
+                        .symbolContainer{
+                            height: auto;
+                            z-index: 1;    
+                            width: auto;
+                            background-image: none;
+                            background: none;
+                            background-color: transparent;
+                            .logo{
+                                filter: none;
+    
+                            }
+                            
+                            
+                        }
+                        
+                    }
+                }
+           }
+            
+        }
+      
+    }
+
 
 }
