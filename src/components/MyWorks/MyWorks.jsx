@@ -20,8 +20,8 @@ const MyWorks = () => {
               <div data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-easing="ease-in-sine"
-                class=" card bg-white shadow-md rounded-md p-4">
-                <h3 class="text-lg font-bold mb-2">Automotora</h3>
+                class=" card bg-black shadow-md rounded-md p-4">
+                
                 <img src="../../img/automotora.gif" alt="" />
               </div>
               </Link>
@@ -49,8 +49,8 @@ const MyWorks = () => {
             <div data-aos="fade-right"
               data-aos-offset="100"
               data-aos-easing="ease-in-sine"
-              class=" card bg-white shadow-md rounded-md p-4">
-              <h3 class="text-lg font-bold mb-2">eCommerce</h3>
+              class=" card bg-black shadow-md rounded-md p-4">
+              
               <img src="../../img/ecommerce.gif" alt="" />
             </div>
             <div className='divIcons'>
@@ -70,7 +70,7 @@ const MyWorks = () => {
             <div data-aos="fade-right"
               data-aos-offset="100"
               data-aos-easing="ease-in-sine"
-              class=" card bg-white shadow-md rounded-md p-4">
+              class=" card bg-black shadow-md rounded-md p-4">
               <h3 class="text-lg font-bold mb-2">Título de la Tarjeta</h3>
               <p class="text-gray-700 mb-4">Contenido de la tarjeta...</p>
             </div>

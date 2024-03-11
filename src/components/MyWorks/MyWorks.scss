@@ -15,12 +15,9 @@
        flex-direction: column;
        width: 100%;
        margin-left: 6.25rem;
-       
        .sectionCard{
         display: flex;
         align-items: center;
-        
-
             .logo{
                 width: 4rem;
                 height: 4rem;
@@ -30,7 +27,14 @@
             .card{
                 margin: .625rem;
                 width: 18.75rem;
+                height: 14.375rem;
+                background: rgb(146,25,25);
+                background: radial-gradient(circle, rgba(146,25,25,1) 66%, rgba(38,38,38,1) 87%, rgba(38,38,38,1) 92%, rgba(38,38,38,1) 99%);
                 
+                img{
+                    width: 17.5rem;
+                    height: 11.875rem;
+                }
             }
            
             .divIcons{

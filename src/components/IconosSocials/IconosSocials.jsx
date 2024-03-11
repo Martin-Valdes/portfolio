@@ -10,10 +10,10 @@ const IconosSocials = () => {
         <Link to="https://github.com/Martin-Valdes?tab=repositories"><img src="/img/signo-de-github.png" alt="logo github" /></Link>
       </div>
       <div>
-        <Link to=""><img src="/img/instagram.png" alt="logo instagram" /></Link>
+        <Link to="https://www.instagram.com/martinvpee?utm_source=qr&igsh=MXA0NGZ0MG1mdnVmeQ=="><img src="/img/instagram.png" alt="logo instagram" /></Link>
       </div>
       <div>
-        <Link to=""><img src="/img/social.png" alt="" /></Link>
+        <Link to="https://wa.me/+59899275858?text=Buen dia!"><img src="/img/social.png" alt="icono watsapp" /></Link>
       </div>
     </section>
     
