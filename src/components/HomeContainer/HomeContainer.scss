@@ -1,4 +1,7 @@
 .new{
+    .textImgMedia{
+        display: none;
+    }
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +47,6 @@
             width: 100%;
             color: white;
             margin:0;
-            
             padding: .625rem;
             height: 25rem;
             border-radius: .625rem;
@@ -59,25 +61,30 @@
                 margin: 1.875rem;
                 text-align: center;
                 font-family:serif;
-                font-weight: 300;
+                font-weight: 18.75rem;
             }
         }
-        .iconsSocial{
-            display: flex;
-            justify-content: center;
-            margin: 1.875rem;
-            position: relative;
-           .sectionLogos{
-            z-index: 2;
-           }
-            
+        .sectionParrafoHome{
+            order: 1;
+            .iconsSocial{
+                display: flex;
+                justify-content: center;
+                margin: 1.875rem;
+                position: relative;
+            .sectionLogos{
+                z-index: 2;
+            }
+                
+            }
         }
+            
     }
     .sectionImg{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        order: 1;
         .arrowHome{
             width: 25rem;
             height: 25rem;
@@ -111,6 +118,7 @@
         font-size: 4.5rem;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: white;
+        order: 2;
     }
     .titleWork span{
         display: inline-block;
@@ -130,6 +138,9 @@
 
 @media (max-width: 1300px){
     .new{
+        .textImgMedia{
+            display: none;
+        }
         .homeContainer{
         width: 100%;
         
@@ -147,12 +158,181 @@
                 width: 100%;
                 
             }
+        
+        .titlepParrapf{
+            font-size: 2.5rem;
+            margin: 0;
+            margin-bottom: 1.25rem;
+            text-align: center;
+            font-family:serif;
+            font-weight: 300;
+        }
+        }
+        .iconsSocial{
+            display: flex;
+            justify-content: center;
+            margin: 1.25rem 0 0 0;
+            position: relative;
+           .sectionLogos{
+            z-index: 2;
+           }
+            
         }
     }
         .sectionWorks{
             width: 100%;
         }
     }
+    .sectionImg{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .arrowHome{
+            width: 25rem;
+            height: 25rem;
+            transition: 0.3s;
+        }
+        .arrowHome:hover{
+            width: 34.375rem;
+            
+        }
+    }
      
 }
-  
+
+
+@media (max-width: 900px){
+    .new{
+         .homeContainer{
+        height: 100vh;
+        .textImg{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 37.5rem;
+            .secText{
+                margin: .625rem 0 0 0;
+            }
+        }
+        .pPresent{
+            width: 100%;
+            height: 100%;
+            color: white;
+            margin: 0;
+            padding: 1.25rem;
+            height: 25rem;
+            border-radius: .625rem;
+            font-size: 1rem;
+            .pDescription{
+                margin-top: 0;
+                width: 100%;
+                
+            }
+        }
+    }
+    }
+   
+}
+@media (max-width: 640px){
+    .new{
+        .textImgMedia{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 37.5rem;
+            .imgPerfil{
+                margin: 1.875rem 0 0 0;
+                border-radius: 6%;
+                width: 7.5rem;
+                height: 7.5rem;
+                background-color: rgba($color: #2e2d2d79, $alpha: 0.6);
+            }
+            .secText{
+                margin-top: 0;
+                font-family: "Montserrat", sans-serif;
+                .pName{
+                    font-size: 1.875rem;
+                    color: white;
+                    margin: 0;
+                }
+                .nFront{
+                    font-weight: 1.375rem;
+                    color: rgb(255, 255, 255);
+                    margin: 0;
+                }
+            }
+        }
+        .homeContainer{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .textImg{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 37.5rem;
+                display: none;
+                .imgPerfil{
+                    margin: 6.25rem 0 0 0;
+                    border-radius: 6%;
+                    width: 7.5rem;
+                    height: 7.5rem;
+                    background-color: rgba($color: #2e2d2d79, $alpha: 0.6);
+                }
+            }
+            .sectionImg{
+                order: 2;
+                .titleWork{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 18.75rem;
+                    margin: 0;
+                    font-size: 3.75rem;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    color: white;
+                    order: 1;
+                }
+            }
+            .sectionParrafoHome{
+                height: 100vh;
+                order: 1;
+                .pPresent{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    height: 100vh;
+                    color: white;
+                    margin:0;
+                    padding: .625rem;
+                    height: 25rem;
+                    border-radius: .625rem;
+                    font-size: 1rem;
+                    text-align: center;
+                 } 
+                .iconsSocial{
+                        display: flex;
+                        justify-content: center;
+                        margin: .625rem 0 0 0;
+                        position: relative;
+                        .sectionLogos{
+                        z-index: 2;
+                    }         
+       
+                .pDescription{
+                    margin-top: 0;
+                    width: 80%;
+                    height: 100vh;
+                    }
+                }
+    }
+       
+    }
+
+} }
