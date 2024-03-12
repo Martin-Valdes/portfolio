@@ -53,12 +53,12 @@
             font-size: 1.1875rem;
             .pDescription{
                 margin-top: 0;
-                width: 80%;
+                width: 100%;
                 
             }
             .titlepParrapf{
-                font-size: 3.75rem;
-                margin: 1.875rem;
+                font-size: 3.125rem;
+                margin: 0;
                 text-align: center;
                 font-family:serif;
                 font-weight: 18.75rem;
@@ -85,6 +85,7 @@
         align-items: center;
         flex-direction: column;
         order: 1;
+        width: 50%;
         .arrowHome{
             width: 25rem;
             height: 25rem;
@@ -243,7 +244,7 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            width: 37.5rem;
+            width: 100%;
             .imgPerfil{
                 margin: 1.875rem 0 0 0;
                 border-radius: 6%;
