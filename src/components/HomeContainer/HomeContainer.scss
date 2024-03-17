@@ -141,6 +141,7 @@
     .new{
         .textImgMedia{
             display: none;
+            
         }
         .homeContainer{
         width: 100%;
@@ -206,8 +207,15 @@
 
 @media (max-width: 900px){
     .new{
+        .textImgMedia{
+            .imgPerfil{
+            width: .625rem ;
+        }
+        }
+        
          .homeContainer{
         height: 100vh;
+        
         .textImg{
             display: flex;
             align-items: center;
@@ -247,23 +255,26 @@
             width: 100%;
             .imgPerfil{
                 margin: 1.875rem 0 0 0;
-                border-radius: 6%;
-                width: 7.5rem;
-                height: 7.5rem;
+                border-radius: 50%;
+                width: 5rem;
+                height: 5rem;
                 background-color: rgba($color: #2e2d2d79, $alpha: 0.6);
             }
             .secText{
                 margin-top: 0;
                 font-family: "Montserrat", sans-serif;
+                text-shadow: 0px 3px 3px rgb(0, 205, 212);
                 .pName{
                     font-size: 1.875rem;
                     color: white;
                     margin: 0;
+                    
                 }
                 .nFront{
                     font-weight: 1.375rem;
                     color: rgb(255, 255, 255);
                     margin: 0;
+                    
                 }
             }
         }

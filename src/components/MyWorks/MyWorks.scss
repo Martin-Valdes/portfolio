@@ -4,12 +4,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-   
-   
     backdrop-filter: .625rem;
-    padding-bottom: 6.25rem;
-    
+    padding-bottom: 6.25rem;  
     .cardsWorks{
        display: flex; 
        flex-direction: column;
@@ -23,7 +19,6 @@
                 width: 2rem;
                 height: 2rem;
                 position: relative;
-                
             }
             .card{
                 margin: .625rem;
@@ -31,21 +26,17 @@
                 height: 14.375rem;
                 background: rgb(146,25,25);
                 background: radial-gradient(circle, rgb(199, 199, 199) 66%, rgb(49, 44, 44) 87%, rgba(38,38,38,1) 92%, rgb(34, 34, 34) 99%);
-                
                 img{
                     width: 17.5rem;
                     height: 11.875rem;
                 }
             }
-           
             .divIcons{
                 display: flex;
                 flex-wrap: wrap;
                 gap: .3125rem;
                 width: 7.5rem;
-                
                 .symbol{
-                    
                     .symbolContainer{
                         height: auto;
                         z-index: 1;    
@@ -55,12 +46,8 @@
                         background-color: transparent;
                         .logo{
                             filter: none;
-
                         }
-                        
-                        
                     }
-                    
                 }
             }
             .infoCard{
@@ -68,21 +55,17 @@
                 height: 9.375rem;
                 color: white;
                 margin-left: .625rem;
-
                 .description{
                     padding: 0;
                     width: 100%;
                     .fontCards{
                         color: white;
                         width: 100%;
-                        
                     }
                 }
             }
        }
-        
     }
-  
 }
 
 @media (max-width:900px){
@@ -92,12 +75,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: #666262;
-        background-image: url("../../img/adrien-olichon-RCAhiGJsUUE-unsplash.jpg");
-        background-image: linear-gradient(to top, #22577a, transparent);
+        background-color: rgb(46, 45, 45);
         backdrop-filter: .625rem;
         padding-bottom: 6.25rem;
-        
         .cardsWorks{
            display: flex; 
            flex-direction: column;
@@ -112,29 +92,24 @@
                     width: 2rem;
                     height: 2rem;
                     position: relative;
-                    
                 }
                 .card{
                     margin: .625rem;
                     width: 18.75rem;
                     height: 14.375rem;
                     background: rgb(146,25,25);
-                    background: radial-gradient(circle, rgba(146,25,25,1) 66%, rgba(38,38,38,1) 87%, rgba(38,38,38,1) 92%, rgba(38,38,38,1) 99%);
-                    
+                    background: radial-gradient(circle, rgb(199, 199, 199) 66%, rgb(49, 44, 44) 87%, rgba(38,38,38,1) 92%, rgb(34, 34, 34) 99%);
                     img{
                         width: 17.5rem;
                         height: 11.875rem;
                     }
                 }
-               
                 .divIcons{
                     display: flex;
                     flex-wrap: wrap;
                     gap: .3125rem;
                     width: 12.8125rem;
-                    
                     .symbol{
-                        
                         .symbolContainer{
                             height: auto;
                             z-index: 1;    
@@ -146,17 +121,10 @@
                                 filter: none;
     
                             }
-                            
-                            
                         }
-                        
                     }
                 }
            }
-            
         }
-      
     }
-
-
 }
