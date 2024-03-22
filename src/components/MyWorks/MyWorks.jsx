@@ -60,7 +60,7 @@ const MyWorks = () => {
             </section>
             
           <section className='sectionCard'>
-          <Link to="https://ecommercelectronics.netlify.app">
+          <Link to="https://ecommercedwsite.netlify.app">
             <div data-aos="fade-right"
               data-aos-offset="100"
               data-aos-easing="ease-in-sine"
