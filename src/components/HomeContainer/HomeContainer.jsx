@@ -7,7 +7,7 @@ import './HomeContainer.scss'
 
 const HomeContainer = () => {
   
-  const (buttonUp, setButtonUp) = useState()
+ 
 
 
 
@@ -54,7 +54,7 @@ const HomeContainer = () => {
               <p className='pDescription'> Soy ingeniero en electronica y un apasionado desarrollador web con un enfoque en la creación de sitios que cuentan con experiencias cautivadoras y funcionales. Mi objetivo es combinar mi creatividad y habilidades técnicas para construir sitios web que no solo sean visualmente atractivos, sino también intuitivos y accesibles para todos los usuarios.
                 <br  /><br />Estoy ansioso por colaborar en proyectos apasionantes y desafiantes, donde pueda utilizar mis habilidades para hacer una diferencia real. Si estás buscando a alguien que no solo tenga las habilidades técnicas necesarias, sino también la pasión y la dedicación para crear experiencias web excepcionales, ¡no dudes en ponerte en contacto conmigo!
               </p>
-              <button>MAS</button>
+              
           </section>
         </div>
       </div>
