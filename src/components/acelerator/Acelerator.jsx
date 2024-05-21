@@ -11,9 +11,9 @@ const Acelerator = (props) => {
     }
     
   return (
-    <div>
+    <>
        
-    </div>
+    </>
   )
 }
 

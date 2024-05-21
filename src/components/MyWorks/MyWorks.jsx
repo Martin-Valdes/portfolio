@@ -14,8 +14,9 @@ const MyWorks = () => {
     <div  className="worksContainer">
         
         <section className='cardsWorks'>
-       
+        
             <section className='sectionCard'>
+              <h2 className="class768 text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">Automotora</h2>
               <Link to="https://spautos.com.uy/">
               <div data-aos="fade-right"
                 data-aos-offset="200"
@@ -47,7 +48,7 @@ const MyWorks = () => {
                 <div className="description ">
                   <div className='fontCards'>
                     <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">Automotora</h2>
-                    <p className="mt-4 text-white-500">
+                    <p className="mt-1 text-white-500">
                       Este sitio cuenta con autenticacion de usuarios y de administrador con perisos especiales para la edicion de galeria de vehiculos.
                     </p>
                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
@@ -60,6 +61,8 @@ const MyWorks = () => {
             </section>
             
           <section className='sectionCard'>
+            
+          <h2 className="class768 text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">eCommerce</h2>
           <Link to="https://ecommercedwsite.netlify.app">
             <div data-aos="fade-right"
               data-aos-offset="100"
@@ -88,7 +91,7 @@ const MyWorks = () => {
                 <div className="description ">
                   <div className='fontCards'>
                     <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">eCommerce</h2>
-                    <p className="mt-4 text-white-500">
+                    <p className="mt-1 text-white-500">
                     Poyecto eCommerce con carro de compras aplicando firebase para guardar los pedidos y darles un tratamiento.
                     </p>
                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
@@ -101,6 +104,7 @@ const MyWorks = () => {
               </div>
           </section>  
           <section className='sectionCard'>
+          <h2 className="class768 text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">Feminnova</h2>
               <Link to="https://feminnova.com.ar/">
               <div data-aos="fade-right"
                 data-aos-offset="200"
@@ -132,7 +136,7 @@ const MyWorks = () => {
                 <div className="description ">
                   <div className='fontCards'>
                     <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">Feminnova</h2>
-                    <p className="mt-4 text-white-500">
+                    <p className="mt-1 text-white-500">
                       Sitio creado para una consultora de RRHH Argentina el cual tenia requerimientos de trduccion al ingles del sitio, responsivo, enlazado con google forms y firebase.
                     </p>
                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
@@ -144,6 +148,7 @@ const MyWorks = () => {
               </div>
             </section>
             <section className='sectionCard'>
+            <h2 className="class768 text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">eCommerce Backend Js</h2>
               <Link to="https://github.com/Martin-Valdes/ecommerce-preeentregaUno.git">
               <div data-aos="fade-right"
                 data-aos-offset="200"
@@ -174,7 +179,7 @@ const MyWorks = () => {
                 <div className="description ">
                   <div className='fontCards'>
                     <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">eCommerce Backend Js</h2>
-                    <p className="mt-4 text-white-500">
+                    <p className="mt-1 text-white-500">
                       Desarrollo utilizando servidor Express. Basado en la simulacion de un sitio el cual administra sus productos y carrito d ecompras de los clientes.
                     </p>
                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">

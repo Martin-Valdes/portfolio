@@ -4,16 +4,13 @@
   align-items: center;
   justify-content: center;
   position: absolute;
- 
-        z-index: -1;
-        width: 80%;
+   z-index: -1;
+   width: 80%;
   .logo{
     width: 31.25rem;
     height: 31.25rem;
     filter: grayscale(80%);
     filter: opacity(25%);
-    
-    
   }
    @keyframes logo-spin {
       from {
@@ -23,17 +20,33 @@
         transform: rotate(360deg);
       }
     }
-    
-    @media (prefers-reduced-motion: no-preference) {
-      .logoReact:nth-of-type(1) .logo {
-        
-      }
-    }
+
 }
 
 
 @media (max-width: 1300px){
   .symbolContainer{
     width: 100%;
+  }
+}
+
+@media  (max-width: 768px){
+  .symbolContainer{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+     z-index: -1;
+     width: 50%;
+     .logoReact{
+        .logo{
+        width: 12.5rem;
+        height: 12.5rem;
+        filter: grayscale(80%);
+        filter: opacity(25%);
+        }
+     }
+    
   }
 }
