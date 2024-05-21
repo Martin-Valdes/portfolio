@@ -16,7 +16,7 @@ const MyWorks = () => {
         <section className='cardsWorks'>
        
             <section className='sectionCard'>
-              <Link to="https://automotora-prueba.com/">
+              <Link to="https://spautos.com.uy/">
               <div data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-easing="ease-in-sine"
@@ -100,9 +100,94 @@ const MyWorks = () => {
                 </div>
               </div>
           </section>  
-          
+          <section className='sectionCard'>
+              <Link to="https://feminnova.com.ar/">
+              <div data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                class=" card bg-black shadow-md rounded-md p-4">
+                
+                <img src="../../img/feminnova.gif" alt="" />
+              </div>
+              </Link>
+              <div className='divIcons'>
+                <img data-aos="fade-left"
+                data-aos-offset="100"
+                data-aos-easing="ease-in-sine" className='logo' src="../../img/jsLogo.png" alt="" />
+                <img data-aos="fade-up"
+                  data-aos-offset="100"
+                  data-aos-easing="ease-in-sine" className='logo' src="../../img/html-5.png" alt="" />
+                <img data-aos="fade-down"
+                  data-aos-offset="100"
+                  data-aos-easing="ease-in-sine" className='logo' src="../../img/sass.svg" alt="" />
+                <img data-aos="fade-down"
+                  data-aos-offset="100"
+                  data-aos-easing="ease-in-sine" className='logo' src="../../img/firebase.png" alt="" />
+                  <img data-aos="fade-up"
+                  data-aos-offset="100"
+                  data-aos-easing="ease-in-sine" className='logo' src="../../img/bootstrap.png" alt="" /> 
+                <div className='symbol'><BackReact /></div>
+              </div>
+              <div className=" infoCard bg-grey">
+                <div className="description ">
+                  <div className='fontCards'>
+                    <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">Feminnova</h2>
+                    <p className="mt-4 text-white-500">
+                      Sitio creado para una consultora de RRHH Argentina el cual tenia requerimientos de trduccion al ingles del sitio, responsivo, enlazado con google forms y firebase.
+                    </p>
+                    <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
+                        <div  className="border-t border-gray-200 pt-4">
+                        </div>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className='sectionCard'>
+              <Link to="https://github.com/Martin-Valdes/ecommerce-preeentregaUno.git">
+              <div data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                class=" card bg-black shadow-md rounded-md p-4">
+                <img src="../../img/backImg.webp" alt="" />
+              </div>
+              </Link>
+              <div className='divIcons'>
+                <img data-aos="fade-left"
+                data-aos-offset="100"
+                data-aos-easing="ease-in-sine" className='logo' src="../../img/jsLogo.png" alt="" />
+                <img data-aos="fade-up"
+                  data-aos-offset="100"
+                  data-aos-easing="ease-in-sine" className='logo' src="../../img/html-5.png" alt="" />
+                <img data-aos="fade-down"
+                  data-aos-offset="100"
+                  data-aos-easing="ease-in-sine" className='logo' src="../../img/sass.svg" alt="" />
+                <img data-aos="fade-down"
+                  data-aos-offset="100"
+                  data-aos-easing="ease-in-sine" className='logo' src="../../img/firebase.png" alt="" />
+                  <img data-aos="fade-up"
+                  data-aos-offset="100"
+                  data-aos-easing="ease-in-sine" className='logo' src="../../img/bootstrap.png" alt="" /> 
+                <div className='symbol'><BackReact /></div>
+              </div>
+              <div className=" infoCard bg-grey">
+                <div className="description ">
+                  <div className='fontCards'>
+                    <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">eCommerce Backend Js</h2>
+                    <p className="mt-4 text-white-500">
+                      Desarrollo utilizando servidor Express. Basado en la simulacion de un sitio el cual administra sus productos y carrito d ecompras de los clientes.
+                    </p>
+                    <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
+                        <div  className="border-t border-gray-200 pt-4">
+                        </div>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </section>
           
         </section>
+        
         
     </div>
   )

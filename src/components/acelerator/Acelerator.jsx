@@ -12,7 +12,7 @@ const Acelerator = (props) => {
     
   return (
     <div>
-       <button onClick={sendData}  >MAS</button>
+       
     </div>
   )
 }

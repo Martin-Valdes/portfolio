@@ -10,8 +10,6 @@ const HomeContainer = () => {
   
  const {t} = useTranslation();
 
-
-
   return (
     <div className='appContainer'>
       <div className= 'new'>
@@ -43,19 +41,16 @@ const HomeContainer = () => {
               </div>
               <img className='arrowHome' src="../../img/flechadown.png" alt="" />
             </div>
-            
         </div>
-        
         <div className='sectionParrafoHome'>
-        <address className='iconsSocial'>
-          <IconosSocials/>
-        </address>
+          <address className='iconsSocial'>
+            <IconosSocials/>
+          </address>
            <section className='pPresent'>
             <h2 className='titlepParrapf'>¡Bienvenido a mi portfolio!</h2>
               <p className='pDescription'> {t('presentationOne')}
                 <br  /><br />{t('presentationTwo')}
               </p>
-              
           </section>
         </div>
       </div>

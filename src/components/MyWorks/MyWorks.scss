@@ -13,6 +13,7 @@
        margin-left: 6.25rem;
        .sectionCard{
             display: flex;
+            gap: 1.875rem;
             align-items: center;
             width: 100%;
             .logo{
@@ -25,7 +26,7 @@
                 width: 18.75rem;
                 height: 14.375rem;
                 background: rgb(146,25,25);
-                background: radial-gradient(circle, rgb(199, 199, 199) 66%, rgb(49, 44, 44) 87%, rgba(38,38,38,1) 92%, rgb(34, 34, 34) 99%);
+                background: white;
                 img{
                     width: 17.5rem;
                     height: 11.875rem;
@@ -35,8 +36,13 @@
                 display: flex;
                 flex-wrap: wrap;
                 gap: .3125rem;
-                width: 7.5rem;
+                width: 9.375rem;
+                height: 6.875rem;
+                .logo{
+                    width: 2rem;
+                }
                 .symbol{
+                    width: 2rem;
                     .symbolContainer{
                         height: auto;
                         z-index: 1;    
@@ -97,8 +103,7 @@
                     margin: .625rem;
                     width: 18.75rem;
                     height: 14.375rem;
-                    background: rgb(146,25,25);
-                    background: radial-gradient(circle, rgb(199, 199, 199) 66%, rgb(49, 44, 44) 87%, rgba(38,38,38,1) 92%, rgb(34, 34, 34) 99%);
+                    background: white;
                     img{
                         width: 17.5rem;
                         height: 11.875rem;
@@ -107,9 +112,11 @@
                 .divIcons{
                     display: flex;
                     flex-wrap: wrap;
+                    justify-content: center;
                     gap: .3125rem;
-                    width: 12.8125rem;
+                    width:90%;
                     .symbol{
+                        width: 2rem;
                         .symbolContainer{
                             height: auto;
                             z-index: 1;    
@@ -121,6 +128,20 @@
                                 filter: none;
     
                             }
+                        }
+                    }
+                }
+                .infoCard{
+                    width: 90%;
+                    height: 9.375rem;
+                    color: white;
+                    margin-left: .625rem;
+                    .description{
+                        padding: 0;
+                        width: 100%;
+                        .fontCards{
+                            color: white;
+                            width: 100%;
                         }
                     }
                 }
