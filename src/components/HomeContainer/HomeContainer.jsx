@@ -33,12 +33,18 @@ const HomeContainer = () => {
             <div className='titleWork'>
               <div>
                 <span>M</span>
-              <span>y</span>
-              <span>W</span>
-              <span>o</span>
-              <span>r</span>
-              <span>k</span>
-              <span>s</span>
+                <span>i</span>
+                <span>s</span>
+                <span className='space'></span>
+                <span>P</span>
+                <span>r</span>
+                <span>o</span>
+                <span>y</span>
+                <span>e</span>
+                <span>c</span>
+                <span>t</span>
+                <span>o</span>
+                <span>s</span>
               </div>
               <img className='arrowHome' src="../../img/flechadown.png" alt="" />
             </div>

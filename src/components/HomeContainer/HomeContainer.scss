@@ -92,12 +92,8 @@
         .arrowHome{
             width: 25rem;
             height: 25rem;
-            transition: 0.3s;
         }
-        .arrowHome:hover{
-            width: 34.375rem;
-            
-        }
+ 
     }
    
     .sectionImg .arrowHome{
@@ -117,12 +113,15 @@
         
     }
     .titleWork{
-        width: 18.75rem;
+        width: fit-content;
         margin: 1.875rem;
         font-size: 4.5rem;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: white;
         order: 2;
+        .space{
+            width: .625rem;
+        }
     }
     .titleWork span{
         display: inline-block;
@@ -197,12 +196,8 @@
         .arrowHome{
             width: 25rem;
             height: 25rem;
-            transition: 0.3s;
         }
-        .arrowHome:hover{
-            width: 34.375rem;
-            
-        }
+      
     }
      
 }
@@ -216,9 +211,12 @@
         }
         }
         
-         .homeContainer{
-        height: 100vh;
-        
+        .homeContainer{
+            height: 100vh;
+            .titleWork{
+                font-size: 2.375rem;
+                text-align: center;
+            }
         .textImg{
             display: flex;
             align-items: center;
@@ -286,7 +284,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            
+           
             .textImg{
                 display: flex;
                 align-items: center;
@@ -310,7 +308,7 @@
                     width: 18.75rem;
                     height: 100%;
                     margin: 0;
-                    font-size: 3.75rem;
+                    font-size: 2.375rem;
                     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                     color: white;
                     order: 1;
