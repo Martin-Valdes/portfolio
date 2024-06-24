@@ -3,6 +3,7 @@ import BackReact from '../BackReact/BackReact'
 import IconosSocials from '../IconosSocials/IconosSocials'
 import MyWorks from '../MyWorks/MyWorks'
 import { useTranslation } from 'react-i18next';
+import BackVideo from '../backVideo/BackVideo';
 
 import './HomeContainer.scss'
 

@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     backdrop-filter: .625rem;
-    padding-bottom: 6.25rem;  
+    padding: 1.875rem 0 6.25rem 0;  
     .cardsWorks{
        display: flex; 
        flex-direction: column;
@@ -50,6 +50,9 @@
                         background-image: none;
                         background: none;
                         background-color: transparent;
+                        .videoBackground{
+                            display: none;
+                        }
                         .logo{
                             filter: none;
                         }
