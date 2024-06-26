@@ -1,19 +1,14 @@
 import React, {useState} from 'react'
+import BackVideo from '../backVideo/BackVideo';
 
 const Acelerator = (props) => {
 
     const [buttonUp, setButtonUp] = useState(30);
-
-    const sendData = () =>{
-
-        setButtonUp(buttonUp - 1)
-        props.enviarDatos(buttonUp)
-    }
     
   return (
-    <div>
-       <button onClick={sendData}  >MAS</button>
-    </div>
+    <>
+       <BackVideo/>
+    </>
   )
 }
 

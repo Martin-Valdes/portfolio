@@ -15,6 +15,9 @@ const IconosSocials = () => {
       <div>
         <Link to="https://wa.me/+59899275858?text=Buen dia!"><img src="/img/social.png" alt="icono watsapp" /></Link>
       </div>
+      <div>
+        <Link to="https://www.linkedin.com/in/fernando-martin-valdes-notrica"><img src="../../../img/linkedin.png" alt="" /></Link>
+      </div>
     </section>
     
   )
