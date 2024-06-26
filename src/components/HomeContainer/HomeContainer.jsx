@@ -52,7 +52,8 @@ const HomeContainer = () => {
         </address>
            <section className='pPresent'>
             <h2 className='titlepParrapf'>¡Bienvenido a mi portfolio!</h2>
-              <p className='pDescription'> {t('presentationOne')}
+              <p className='pDescription'> 
+                {t('presentationOne')}
                 <br  /><br />{t('presentationTwo')}
               </p>
               
