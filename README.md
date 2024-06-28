@@ -1,35 +1,30 @@
-# Bienvenidos a mi repositorio de Ecommerce Backend
+# Bienvenidos a mi repositorio Portfolio!!
 
-Este proyecto cuenta con varios componentes los cuales se describen brevemente a continuacion:
+En este proyecto intente aplicar todas mis habilidades en frontend.
+Mas allá de los conocimientos adquiridos en la carrera, he utilizado la base en js y y varias tecnologias
+para implementar nuevas caracteristicas en base a lectura de manuales, repositorios y ayuda de AI.
 
-Se realiza una base de datos con MongoDB Atlas.
-
-Esta base de datos recibe peticiones desde nuestro servidor el cual se configuraron get, put, post, delete tanto para un carrito de compras como para los productos.
-
-Tambien se utilizo websokets y handlebars para generar una vista para el cliente y que este pueda tener infromación sin tener que refrescar el sitio.
-  
-
+Mi idea es seguir trabajando en mi portfolio para lograr una experiencia de usuario mas atractiva y novedosa. 
 
 ## Herramientas y tecnologías utilizadas
+  - [i18n](https://www.i18next.com/)
+  - [ESlint](https://eslint.org/)
+ 
 
 - **Lenguajes de Programación:**
   - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 - **Frameworks y Librerías:**
-  - [MongoDB](https://www.mongodb.com/)
-  - [Websocket](https://es.javascript.info/websocket)
-  - [Handlebars](https://handlebarsjs.com/)
+  - [AOS](https://michalsnik.github.io/aos/)
+  - [Tailwind CSS](https://tailwindcss.com/)
+  - [React](https://vitejs.dev/)
 
-- **Bases de Datos:**
-  - [MongoDB](https://www.mongodb.com/)
-  
 - **Herramientas de Desarrollo:**
   - [GitHub](https://github.com/)
   - [Nodemon](https://nodemon.io/)
-  - [Postman](https://www.postman.com/)
-  - [MongoDBCompas](https://www.mongodb.com/products/tools/compass)
 
-- **Servicios en la Nube:**
-  - [MongoDB](https://www.mongodb.com/)
-![Logo](public/img/signo-de-github.png)
+## Screenshots
+
+![App Screenshot](public/img/gifPortfolio.gif)
+
 
