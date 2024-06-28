@@ -31,5 +31,5 @@ Tambien se utilizo websokets y handlebars para generar una vista para el cliente
 
 - **Servicios en la Nube:**
   - [MongoDB](https://www.mongodb.com/)
-![Logo](public/img/img/signo-de-github.png)
+![Logo](public/img/signo-de-github.png)
 
