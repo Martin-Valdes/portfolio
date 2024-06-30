@@ -5,6 +5,8 @@ Mas allá de los conocimientos adquiridos en la carrera, he utilizado la base en
 para implementar nuevas caracteristicas en base a lectura de manuales, repositorios y ayuda de AI.
 
 Mi idea es seguir trabajando en mi portfolio para lograr una experiencia de usuario mas atractiva y novedosa.
+Proximamente contara con traduccion al ingles, de forma automatica segun el idioma configurado en el navegador y tambien segun la necesidad del usuario.
+
 
 ## Herramientas y tecnologías utilizadas
 
