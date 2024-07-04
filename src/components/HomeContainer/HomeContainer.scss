@@ -23,6 +23,7 @@
                 border-radius: 6%;
                 width: 7.5rem;
                 height: 7.5rem;
+                filter: drop-shadow(10px 10px 30px  #61fad9);
                 background-color: rgba($color: #2e2d2d79, $alpha: 0.6);
             }
             .secText{
@@ -129,6 +130,11 @@
     .titleWork span{
         display: inline-block;
         animation: bounce 0.5s infinite alternate;
+    }
+    .sectionProyects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     @keyframes bounce {

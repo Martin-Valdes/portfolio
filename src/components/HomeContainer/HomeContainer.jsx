@@ -64,7 +64,8 @@ const HomeContainer = () => {
         </div>
       </div>
       <BackReact/>
-      <BriefcaseIcon class="h-32 w-10 text-white" />
+      <section className='sectionProyects'>
+        <BriefcaseIcon class="h-32 w-10 text-white" />
       <h1 className='titleWorks'>Mis proyectos</h1>
         <section  className='sectionWorks'>
           <MyWorks/>
@@ -72,6 +73,8 @@ const HomeContainer = () => {
         <div className='skillsContainer'>
           <Skills/>
         </div>
+      </section>
+      
       </div>
     </div>
   )
