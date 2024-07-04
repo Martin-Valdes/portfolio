@@ -65,7 +65,7 @@ const HomeContainer = () => {
       </div>
       <BackReact/>
       <section className='sectionProyects'>
-        <BriefcaseIcon class="h-32 w-10 text-white" />
+        <BriefcaseIcon class="h-10 w-10 text-white" />
       <h1 className='titleWorks'>Mis proyectos</h1>
         <section  className='sectionWorks'>
           <MyWorks/>

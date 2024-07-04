@@ -1,12 +1,16 @@
 .new{
+    background: linear-gradient(to bottom, rgb(6, 2, 41), transparent);
     .textImgMedia{
         display: none;
     }
     display: flex;
+   
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: rgb(6, 2, 41);
+    height: 100%;
+    // background-color: rgb(6, 2, 41);
+    
     z-index: 1;
     .homeContainer{ 
         width: 80%;
@@ -103,7 +107,7 @@
         }
     }
     .sectionWorks{
-        width: 80%;
+        width: 100%;
         
     }
     .titleWorks{
@@ -133,8 +137,12 @@
     }
     .sectionProyects{
         display: flex;
+        background: rgb(2,0,36);
+        height: 100%;
+        width: 100%;
         flex-direction: column;
         align-items: center;
+        
     }
 
     @keyframes bounce {
@@ -187,6 +195,7 @@
         }
         .sectionWorks{
             width: 100%;
+           
         }
     }
     .sectionImg{
