@@ -142,14 +142,12 @@ const MyWorks = () => {
             </section><Link to="https://github.com/Martin-Valdes/ecommerce-preeentregaUno.git">
             <section className='sectionCard backend'>
             <h2 className="class768 text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">eCommerce Backend Js</h2>
-              
               <div data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-easing="ease-in-sine"
                 class=" card">
                 <img src="../../img/backImg.webp" alt="" />
               </div>
-              
               <div className='divIcons'>
                 <img data-aos="fade-left"
                 data-aos-offset="100"

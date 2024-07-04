@@ -1,11 +1,12 @@
-import React, {useState} from 'react'
+import React from 'react'
 import BackReact from '../BackReact/BackReact'
 import IconosSocials from '../IconosSocials/IconosSocials'
 import MyWorks from '../MyWorks/MyWorks'
 import { useTranslation } from 'react-i18next';
-import BackVideo from '../backVideo/BackVideo';
+import { BriefcaseIcon } from "@heroicons/react/solid";
 
 import './HomeContainer.scss'
+import Skills from '../Skills/Skills';
 
 const HomeContainer = () => {
   
@@ -63,9 +64,14 @@ const HomeContainer = () => {
         </div>
       </div>
       <BackReact/>
+      <BriefcaseIcon class="h-32 w-10 text-white" />
+      <h1 className='titleWorks'>Mis proyectos</h1>
         <section  className='sectionWorks'>
           <MyWorks/>
         </section>
+        <div className='skillsContainer'>
+          <Skills/>
+        </div>
       </div>
     </div>
   )

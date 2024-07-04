@@ -15,16 +15,13 @@
        .sectionCard{
             display: flex;
             flex-direction: row;
-            gap: 1.875rem;
             align-items: center;
             width: 100%;
             cursor: pointer;
             a{
-                
                 display: flex;
                 flex-direction: row;
-                align-items: center;
-                
+                align-items: center; 
             }
             .logo{
                 width: 2rem;
@@ -43,7 +40,6 @@
             .divIcons{
                 display: flex;
                 flex-wrap: wrap;
-                
                 gap: .3125rem;
                 width: 9.375rem;
                 height: 6.875rem;
@@ -85,8 +81,7 @@
             .class768{
                 display: none;
             }
-       }
-       
+        }
     }
     .automotora:hover{
         background-color: rgb(82, 82, 82);

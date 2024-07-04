@@ -1,5 +1,4 @@
 .new{
-    
     .textImgMedia{
         display: none;
     }
@@ -7,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: rgb(46, 45, 45);
+    background-color: rgb(6, 2, 41);
     z-index: 1;
     .homeContainer{ 
         width: 80%;
@@ -52,11 +51,9 @@
             height: 25rem;
             border-radius: .625rem;
             font-size: 1.1875rem;
-            
             .pDescription{
                 margin-top: 0;
-                width: 100%;
-                
+                width: 100%; 
             }
             .titlepParrapf{
                 font-size: 3.125rem;
@@ -74,13 +71,11 @@
                 margin: 1.875rem;
                 position: relative;
                 padding-top: 6.25rem;
-            .sectionLogos{
-                z-index: 2;
-            }
-                
+                .sectionLogos{
+                    z-index: 2;
+                }  
             }
         }
-            
     }
     .sectionImg{
         display: flex;
@@ -93,9 +88,7 @@
             width: 25rem;
             height: 25rem;
         }
- 
     }
-   
     .sectionImg .arrowHome{
         display: inline-block;
         animation: bounce 0.5s infinite alternate;
@@ -111,6 +104,16 @@
     .sectionWorks{
         width: 80%;
         
+    }
+    .titleWorks{
+        width: 100%;
+        padding-top: 10;
+        color: white;
+        font-family: Poppins;
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-align: center;        
+        backdrop-filter: blur(20px); 
     }
     .titleWork{
         width: fit-content;
@@ -136,18 +139,14 @@
             transform: translateY(-15px); /* Define la posición final */
         }
     }
-
 }
-
 @media (max-width: 1300px){
     .new{
         .textImgMedia{
             display: none;
-            
         }
         .homeContainer{
         width: 100%;
-        
         .pPresent{
             width: 100%;
             color: white;
@@ -160,17 +159,15 @@
             .pDescription{
                 margin-top: 0;
                 width: 100%;
-                
             }
-        
-        .titlepParrapf{
-            font-size: 2.5rem;
-            margin: 0;
-            margin-bottom: 1.25rem;
-            text-align: center;
-            font-family:serif;
-            font-weight: 300;
-        }
+            .titlepParrapf{
+                font-size: 2.5rem;
+                margin: 0;
+                margin-bottom: 1.25rem;
+                text-align: center;
+                font-family:serif;
+                font-weight: 300;
+            }
         }
         .iconsSocial{
             display: flex;
@@ -180,9 +177,8 @@
            .sectionLogos{
             z-index: 2;
            }
-            
         }
-    }
+        }
         .sectionWorks{
             width: 100%;
         }
@@ -197,26 +193,21 @@
             width: 25rem;
             height: 25rem;
         }
-      
-    }
-     
+    }    
 }
-
-
 @media (max-width: 900px){
-    .new{
-        .textImgMedia{
-            .imgPerfil{
+.new{
+    .textImgMedia{
+        .imgPerfil{
             width: .625rem ;
         }
+    }
+    .homeContainer{
+        height: 100vh;
+        .titleWork{
+            font-size: 2.375rem;
+            text-align: center;
         }
-        
-        .homeContainer{
-            height: 100vh;
-            .titleWork{
-                font-size: 2.375rem;
-                text-align: center;
-            }
         .textImg{
             display: flex;
             align-items: center;
@@ -239,11 +230,10 @@
             .pDescription{
                 margin-top: 0;
                 width: 100%;
-                
             }
         }
     }
-    }
+}
    
 }
 @media (max-width: 640px){
@@ -346,8 +336,7 @@
                     height: fit-content;
                     }
                 }
-    }
-       
-    }
-
-} }
+            }
+        }
+    } 
+}
