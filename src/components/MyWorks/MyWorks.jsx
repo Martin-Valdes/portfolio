@@ -47,7 +47,7 @@ const MyWorks = () => {
                   <div className='fontCards'>
                     <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">Automotora</h2>
                     <p className="mt-1 text-white-500">
-                      Este sitio cuenta con autenticacion de usuarios y de administrador con perisos especiales para la edicion de galeria de vehiculos.
+                      Este sitio cuenta con autenticación de usuarios y de administrador con permisos especiales para la edición de galería de vehículos.
                     </p>
                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
                         <div  className="border-t border-gray-200 pt-4">

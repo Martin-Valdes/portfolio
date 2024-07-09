@@ -5,6 +5,7 @@ import i18n from './components/traslation/Traslation.jsx';
 
 import './App.scss';
 
+
 i18n.init()
 
 function App() {
