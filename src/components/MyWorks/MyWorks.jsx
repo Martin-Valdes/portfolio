@@ -139,8 +139,9 @@ const MyWorks = () => {
                 </div>
               </div>
               </Link>
-            </section><Link to="https://github.com/Martin-Valdes/ecommerce-preeentregaUno.git">
+            </section>
             <section className='sectionCard backend'>
+            <Link to="https://github.com/Martin-Valdes/ecommerce-preeentregaUno.git">
             <h2 className="class768 text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">eCommerce Backend Js</h2>
               <div data-aos="fade-right"
                 data-aos-offset="200"
@@ -160,11 +161,10 @@ const MyWorks = () => {
                   data-aos-easing="ease-in-sine" className='logo' src="../../img/sass.svg" alt="" />
                 <img data-aos="fade-down"
                   data-aos-offset="100"
-                  data-aos-easing="ease-in-sine" className='logo' src="../../img/firebase.png" alt="" />
+                  data-aos-easing="ease-in-sine" className='logo' src="../../img/nodejs.png" alt="" />
                   <img data-aos="fade-up"
                   data-aos-offset="100"
-                  data-aos-easing="ease-in-sine" className='logo' src="../../img/bootstrap.png" alt="" /> 
-                <div className='symbol'><BackReact /></div>
+                  data-aos-easing="ease-in-sine" className='logo' src="../../img/mongodb.png" alt="" /> 
               </div>
               <div className=" infoCard bg-grey">
                 <div className="description ">
@@ -180,9 +180,9 @@ const MyWorks = () => {
                   </div>
                 </div>
               </div>
-              
+              </Link>
             </section>
-          </Link>
+          
         </section>
         
         
