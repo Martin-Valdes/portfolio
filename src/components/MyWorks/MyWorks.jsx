@@ -171,7 +171,7 @@ const MyWorks = () => {
                   <div className='fontCards'>
                     <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">eCommerce Backend Js</h2>
                     <p className="mt-1 text-white-500">
-                      Desarrollo utilizando servidor Express. Basado en la simulacion de un sitio el cual administra sus productos y carrito d ecompras de los clientes.
+                      Desarrollo utilizando servidor Express. Basado en la simulacion de un sitio el cual administra sus productos y carrito de compras.
                     </p>
                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
                         <div  className="border-t border-gray-200 pt-4">

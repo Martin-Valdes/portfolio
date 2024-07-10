@@ -33,7 +33,7 @@
             }
             .secText{
                 margin-top: 6.25rem;
-                font-family: "Montserrat", sans-serif;
+                font-family: Poppins;
                 .pName{
                     font-size: 1.875rem;
                     color: white;
@@ -62,10 +62,10 @@
                 width: 100%; 
             }
             .titlepParrapf{
-                font-size: 3.125rem;
+                font-size: 2.5rem;
                 margin: 0;
                 text-align: center;
-                font-family:serif;
+                font-family:Poppins;
                 font-weight: 18.75rem;
             }
         }
@@ -125,7 +125,7 @@
         width: fit-content;
         margin: 1.875rem;
         font-size: 4.5rem;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: Poppins;
         color: white;
         order: 2;
         .space{
@@ -146,6 +146,12 @@
         align-items: center;
         padding-top: 1.875rem;
         
+    }
+    .contactContaier{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     @keyframes bounce {
