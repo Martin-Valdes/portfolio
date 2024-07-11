@@ -47,7 +47,7 @@ const MyWorks = () => {
                   <div className='fontCards'>
                     <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">Automotora</h2>
                     <p className="mt-1 text-white-500">
-                      Este sitio cuenta con autenticacion de usuarios y de administrador con perisos especiales para la edicion de galeria de vehiculos.
+                      Este sitio cuenta con autenticación de usuarios y de administrador con permisos especiales para la edición de galería de vehículos.
                     </p>
                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
                         <div  className="border-t border-gray-200 pt-4">
@@ -139,8 +139,9 @@ const MyWorks = () => {
                 </div>
               </div>
               </Link>
-            </section><Link to="https://github.com/Martin-Valdes/ecommerce-preeentregaUno.git">
+            </section>
             <section className='sectionCard backend'>
+            <Link to="https://github.com/Martin-Valdes/ecommerce-preeentregaUno.git">
             <h2 className="class768 text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">eCommerce Backend Js</h2>
               <div data-aos="fade-right"
                 data-aos-offset="200"
@@ -160,18 +161,17 @@ const MyWorks = () => {
                   data-aos-easing="ease-in-sine" className='logo' src="../../img/sass.svg" alt="" />
                 <img data-aos="fade-down"
                   data-aos-offset="100"
-                  data-aos-easing="ease-in-sine" className='logo' src="../../img/firebase.png" alt="" />
+                  data-aos-easing="ease-in-sine" className='logo' src="../../img/nodejs.png" alt="" />
                   <img data-aos="fade-up"
                   data-aos-offset="100"
-                  data-aos-easing="ease-in-sine" className='logo' src="../../img/bootstrap.png" alt="" /> 
-                <div className='symbol'><BackReact /></div>
+                  data-aos-easing="ease-in-sine" className='logo' src="../../img/mongodb.png" alt="" /> 
               </div>
               <div className=" infoCard bg-grey">
                 <div className="description ">
                   <div className='fontCards'>
                     <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">eCommerce Backend Js</h2>
                     <p className="mt-1 text-white-500">
-                      Desarrollo utilizando servidor Express. Basado en la simulacion de un sitio el cual administra sus productos y carrito d ecompras de los clientes.
+                      Desarrollo utilizando servidor Express. Basado en la simulacion de un sitio el cual administra sus productos y carrito de compras.
                     </p>
                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
                         <div  className="border-t border-gray-200 pt-4">
@@ -180,9 +180,9 @@ const MyWorks = () => {
                   </div>
                 </div>
               </div>
-              
+              </Link>
             </section>
-          </Link>
+          
         </section>
         
         

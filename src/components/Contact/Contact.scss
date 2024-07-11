@@ -1,0 +1,163 @@
+.title{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     h1{
+        font-size: 2.625rem;
+        padding-bottom: 3.125rem;
+    }
+    svg{
+        padding: 0;
+        margin: 0;
+    }
+}
+.contact{
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;
+
+    height: 100%;
+    color: white;
+    font-family: Poppins;
+    padding: 1.25rem 0 6.25rem 0;
+    border-color: red .125rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: .625rem;
+    padding: 1.875rem;
+    width: 43.75rem;
+   margin-bottom: 1.875rem;
+    .containerForm{
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        color: black;
+        .conatinerMessage2{
+            width: 17.5rem;
+            font-family: Poppins;
+            font-weight: 300; 
+            padding: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+            overflow-y: auto;
+            resize: none;
+            transition: box-shadow 0.3s ease;
+        }
+        .conatinerMessage{
+            height: 12.5rem;
+            width: 25rem;
+            font-family: Poppins;
+            font-weight: 300;
+            height: 200px; 
+            padding: 10px;
+            font-size: 16px;
+            box-sizing: border-box;
+            overflow-y: auto;
+            resize: none;
+            transition: box-shadow 0.3s ease;
+        }
+        .conatinerMessage:focus{
+            border-color: #00c3ff;
+            outline: none;
+            resize: none;
+            box-shadow: 0 0 10px rgb(184, 172, 4);
+        }
+        .conatinerMessage2:focus{
+            border-color: #00c3ff;
+            outline: none;
+            resize: none;
+            box-shadow: 0 0 10px rgb(184, 172, 4);
+        }
+        .buttonSend{
+            width: 6.25rem;
+            height: 1.875rem;
+            background-color: rgb(87, 226, 226);
+            color: black;
+            font-family: Poppins;
+            font-weight: 600;
+        }
+    }
+}
+
+@media ( max-width:48rem ){
+    .title{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         h1{
+            font-size: 2.625rem;
+            padding-bottom: 3.125rem;
+        }
+        svg{
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .contact{
+        display: flex;
+        justify-content: center;  
+        flex-direction: column;
+    
+        height: 100%;
+        color: white;
+        font-family: Poppins;
+        padding: 1.25rem 0 6.25rem 0;
+        border-color: red .125rem;
+        border: none;
+        border-radius: .625rem;
+        padding: .3125rem;
+        width: 100%;
+       margin-bottom: 1.875rem;
+        .containerForm{
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            color: black;
+            .conatinerMessage2{
+                width: 17.5rem;
+                font-family: Poppins;
+                font-weight: 300; 
+                padding: 5px;
+                font-size: 16px;
+                box-sizing: border-box;
+                overflow-y: auto;
+                resize: none;
+                transition: box-shadow 0.3s ease;
+            }
+            .conatinerMessage{
+                height: 12.5rem;
+                width: 98%;
+                font-family: Poppins;
+                font-weight: 300;
+                height: 200px; 
+                padding: 10px;
+                font-size: 16px;
+                box-sizing: border-box;
+                overflow-y: auto;
+                resize: none;
+                transition: box-shadow 0.3s ease;
+            }
+            .conatinerMessage:focus{
+                border-color: #00c3ff;
+                outline: none;
+                resize: none;
+                box-shadow: 0 0 10px rgb(184, 172, 4);
+            }
+            .conatinerMessage2:focus{
+                border-color: #00c3ff;
+                outline: none;
+                resize: none;
+                box-shadow: 0 0 10px rgb(184, 172, 4);
+            }
+            .buttonSend{
+                width: 6.25rem;
+                height: 1.875rem;
+                background-color: rgb(87, 226, 226);
+                color: black;
+                font-family: Poppins;
+                font-weight: 600;
+            }
+        }
+    }
+}
