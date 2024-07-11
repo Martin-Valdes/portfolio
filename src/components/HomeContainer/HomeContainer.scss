@@ -156,11 +156,13 @@
 }
 @media (max-width: 1300px){
     .new{
+        background: linear-gradient(to bottom, rgb(6, 2, 41), transparent);
         .textImgMedia{
             display: none;
         }
         .homeContainer{
         width: 100%;
+        
         .pPresent{
             width: 100%;
             color: white;
@@ -195,7 +197,6 @@
         }
         .sectionWorks{
             width: 100%;
-           
         }
     }
     .sectionImg{
@@ -212,13 +213,15 @@
 }
 @media (max-width: 900px){
 .new{
+    background: linear-gradient(to bottom, rgb(6, 2, 41), transparent);
     .textImgMedia{
         .imgPerfil{
             width: .625rem ;
+            filter: drop-shadow(10px 10px 30px  #61fad9);
+                background-color: rgba($color: #2e2d2d79, $alpha: 0.6);
         }
     }
     .homeContainer{
-        height: 100vh;
         .titleWork{
             font-size: 2.375rem;
             text-align: center;
@@ -253,6 +256,7 @@
 }
 @media (max-width: 640px){
     .new{
+        background: linear-gradient(to bottom, rgb(6, 2, 41), transparent);
         .textImgMedia{
             display: flex;
             align-items: center;

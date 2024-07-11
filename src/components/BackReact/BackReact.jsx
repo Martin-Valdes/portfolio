@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import reactLogo from '../../assets/react.svg'
 import Acelerator from '../acelerator/Acelerator';
 import "./BackReact.scss"
-import BackVideo from '../backVideo/BackVideo';
 
 function BackReact() {
   

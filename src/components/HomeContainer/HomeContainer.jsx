@@ -4,9 +4,10 @@ import IconosSocials from '../IconosSocials/IconosSocials'
 import MyWorks from '../MyWorks/MyWorks'
 import { useTranslation } from 'react-i18next';
 import { BriefcaseIcon } from "@heroicons/react/solid";
+import Skills from '../Skills/Skills';
 
 import './HomeContainer.scss'
-import Skills from '../Skills/Skills';
+
 
 const HomeContainer = () => {
   
