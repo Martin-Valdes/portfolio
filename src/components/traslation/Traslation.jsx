@@ -23,7 +23,7 @@ const resources = {
       email:"Your Email",
       tel:"Phone",
       message:"Your message"
-
+     
     },
   },
   es: {
@@ -44,7 +44,7 @@ const resources = {
       skills:"Skills y Tecnologías",
       contact:"Contacto",
       email:"Email",
-      phone:"Teléfono",
+      tel:"Teléfono",
       message:"Mensaje",
 
     },
