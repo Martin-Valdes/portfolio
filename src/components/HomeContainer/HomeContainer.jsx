@@ -34,19 +34,19 @@ const HomeContainer = () => {
             </div>
             <div className='titleWork'>
               <div>
-                <span>M</span>
-                <span>i</span>
-                <span>s</span>
+                <span>{t("a")}</span>
+                <span>{t("b")}</span>
+                <span>{t("c")}</span>
                 <span className='space'></span>
-                <span>P</span>
-                <span>r</span>
-                <span>o</span>
-                <span>y</span>
-                <span>e</span>
-                <span>c</span>
-                <span>t</span>
-                <span>o</span>
-                <span>s</span>
+                <span>{t("d")}</span>
+                <span>{t("e")}</span>
+                <span>{t("f")}</span>
+                <span>{t("g")}</span>
+                <span>{t("h")}</span>
+                <span>{t("i")}</span>
+                <span>{t("j")}</span>
+                <span>{t("k")}</span>
+                <span>{t("l")}</span>
               </div>
               <img className='arrowHome' src="../../img/flechadown.png" alt="" />
             </div>
@@ -56,7 +56,7 @@ const HomeContainer = () => {
             <IconosSocials/>
           </address>
            <section className='pPresent'>
-            <h2 className='titlepParrapf'>¡Bienvenido a mi portfolio!</h2>
+            <h2 className='titlepParrapf'>¡{t("welcome")}!</h2>
               <p className='pDescription'> 
                 {t('presentationOne')}
                 <br  /><br />{t('presentationTwo')}
@@ -67,7 +67,7 @@ const HomeContainer = () => {
       <BackReact/>
       <section className='sectionProyects'>
         <BriefcaseIcon class="h-10 w-10 text-white" />
-      <h1 className='titleWorks'>Mis proyectos</h1>
+      <h1 className='titleWorks'>{t("myProyects")}</h1>
         <section  className='sectionWorks'>
           <MyWorks/>
         </section>

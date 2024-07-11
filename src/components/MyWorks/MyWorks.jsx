@@ -2,6 +2,7 @@ import React from 'react'
 import AOS from 'aos';
 import BackReact from "../BackReact/BackReact"
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
 
 import './MyWorks.scss'
 
@@ -9,6 +10,7 @@ AOS.init();
 
 const MyWorks = () => {
 
+  const {t} = useTranslation();
 
   return (
     <div  className="worksContainer">
@@ -17,7 +19,7 @@ const MyWorks = () => {
         
             <section className='sectionCard automotora'>
               <Link to="https://spautos.com.uy/">
-              <h2 className="class768 text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">Automotora</h2>
+              <h2 className="class768 text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">{t("automotive")}</h2>
               <div data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-easing="ease-in-sine"
@@ -45,9 +47,9 @@ const MyWorks = () => {
               <div className=" infoCard bg-grey">
                 <div className="description ">
                   <div className='fontCards'>
-                    <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">Automotora</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">{t("automotive")}</h2>
                     <p className="mt-1 text-white-500">
-                      Este sitio cuenta con autenticación de usuarios y de administrador con permisos especiales para la edición de galería de vehículos.
+                      {t("automotiveText")}
                     </p>
                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
                         <div  className="border-t border-gray-200 pt-4">
@@ -86,7 +88,7 @@ const MyWorks = () => {
                     <div className='fontCards'>
                       <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">eCommerce</h2>
                       <p className="mt-1 text-white-500">
-                      Poyecto eCommerce con carro de compras aplicando firebase para guardar los pedidos y darles un tratamiento.
+                        {t("ecommerceText")}
                       </p>
                       <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
                           <div  className="border-t border-gray-200 pt-4">
@@ -129,7 +131,7 @@ const MyWorks = () => {
                   <div className='fontCards'>
                     <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">Feminnova</h2>
                     <p className="mt-1 text-white-500">
-                      Sitio creado para una consultora de RRHH Argentina el cual tenia requerimientos de trduccion al ingles del sitio, responsivo, enlazado con google forms y firebase.
+                      {t("femiText")}
                     </p>
                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
                         <div  className="border-t border-gray-200 pt-4">
@@ -171,7 +173,7 @@ const MyWorks = () => {
                   <div className='fontCards'>
                     <h2 className="text-3xl font-bold tracking-tight text-white-900 sm:text-4xl">eCommerce Backend Js</h2>
                     <p className="mt-1 text-white-500">
-                      Desarrollo utilizando servidor Express. Basado en la simulacion de un sitio el cual administra sus productos y carrito de compras.
+                      {t("backText")}
                     </p>
                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-1">
                         <div  className="border-t border-gray-200 pt-4">

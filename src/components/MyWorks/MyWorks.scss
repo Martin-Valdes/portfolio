@@ -103,7 +103,6 @@
         }
     }
     .automotora:hover{
-<<<<<<< HEAD
         background-color: rgb(21, 7, 80);
         
     }
@@ -115,26 +114,12 @@
     }
     .backend:hover{
         background-color: rgb(21, 7, 80);
-=======
-        background-color: rgba(63, 48, 114, 0.582);
-        
-    }
-    .ecommerce:hover{
-        background-color: rgba(63, 48, 114, 0.582);
-    }
-    .feminnova:hover{
-        background-color: rgba(63, 48, 114, 0.582);
-    }
-    .backend:hover{
-        background-color: rgba(63, 48, 114, 0.582);
->>>>>>> fa5e2d3b06195ca17c8f7be5e34ca0267f7f4ff6
     }
 }
 
 @media (max-width:900px){
     .worksContainer{
         width: 100%;
-<<<<<<< HEAD
         display: flex;
         justify-content: center;
         align-items: center;
@@ -142,15 +127,6 @@
         
         backdrop-filter: .625rem;
         padding-bottom: 6.25rem;
-=======
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    backdrop-filter: .625rem;
-    padding-bottom: 1.25rem;  
->>>>>>> fa5e2d3b06195ca17c8f7be5e34ca0267f7f4ff6
         .cardsWorks{
            display: flex; 
            flex-direction: column;
