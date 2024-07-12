@@ -66,7 +66,7 @@ const HomeContainer = () => {
       </div>
       <BackReact/>
       <section className='sectionProyects'>
-        <BriefcaseIcon class="h-10 w-10 text-white" />
+        <BriefcaseIcon className="h-10 w-10 text-white" />
       <h1 className='titleWorks'>{t("myProyects")}</h1>
         <section  className='sectionWorks'>
           <MyWorks/>

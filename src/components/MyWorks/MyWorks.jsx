@@ -23,7 +23,7 @@ const MyWorks = () => {
               <div data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-easing="ease-in-sine"
-                class=" card ">
+                className=" card ">
                 <img src="../../img/automotora.gif" alt="" />
               </div>
               <div className='divIcons'>
@@ -65,7 +65,7 @@ const MyWorks = () => {
               <div data-aos="fade-right"
                 data-aos-offset="100"
                 data-aos-easing="ease-in-sine"
-                class=" card">
+                className=" card">
                 <img src="../../img/ecommerce.gif" alt="" />
               </div>
               <div className='divIcons'>
@@ -105,7 +105,7 @@ const MyWorks = () => {
               <div data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-easing="ease-in-sine"
-                class=" card ">
+                className=" card ">
                 <img src="../../img/feminnova.gif" alt="" />
               </div>
               <div className='divIcons'>
@@ -148,7 +148,7 @@ const MyWorks = () => {
               <div data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-easing="ease-in-sine"
-                class=" card">
+                className=" card">
                 <img src="../../img/backImg.webp" alt="" />
               </div>
               <div className='divIcons'>
