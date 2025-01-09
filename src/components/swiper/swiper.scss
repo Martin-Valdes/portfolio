@@ -1,0 +1,42 @@
+.swiper {
+  width: 90%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: space-around;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 600px;
+  box-shadow: 0 0 0.125rem hsl(212, 98%, 50%), 0 0 1.875rem #0e1eaa, 0 0 2.5rem #02cbe6;
+  background-color: rgb(0, 0, 0);
+  .titleCard,
+  .pCard {
+    color: white;
+    padding: .625rem;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .pCard {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+.swiper-slide-active{
+  box-shadow: 0 0 0.125rem #00d9e0, 0 0 1.875rem #06db71, 0 0 2.5rem #03bbd3;
+  transition: all 0.5s;
+  
+}
+.swiper-slide-active:hover{
+  transform: scale(1.1);
+  
+}
+
+.img {
+  width: 100%;
+}

@@ -1,0 +1,105 @@
+.credit {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.content {
+  padding-top: .625rem;
+  padding-bottom: .3125rem;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 18px;
+}
+
+.button_su {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  border: .125rem solid #f4f4f4;
+}
+
+.su_button_circle {
+  background-color: red;
+  border-radius: 1000px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0px;
+  height: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  pointer-events: none;
+  /*animation-timing-function: ease-in-out; */
+}
+
+.button_su_inner {
+  display: inline-block;
+  background: #000000;
+  color: #f4f4f4;
+  font-size: 16px;
+  font-weight: normal;
+  width: 100%;
+  text-align: center;
+  border-radius: 3px;
+  transition: 400ms;
+  text-decoration: none;
+  padding: 22px;
+  z-index: 100000;
+}
+
+.button_text_container {
+  position: relative;
+  z-index: 10000;
+  width: 100%;
+}
+
+.explode-circle {
+  animation: explode 0.5s forwards;
+}
+
+.desplode-circle {
+  animation: desplode 0.5s forwards;
+}
+
+@keyframes explode {
+  0% {
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgba(58, 3, 255, 0.966);
+  }
+  100% {
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -200px;
+    background-color: rgba(73, 55, 153, 0.8);
+  }
+}
+
+@keyframes desplode {
+  0% {
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -200px;
+    background-color: rgba(16, 98, 250, 0.8);
+  }
+  100% {
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgba(11, 3, 80, 0.6);
+  }
+}
