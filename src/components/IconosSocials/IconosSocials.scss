@@ -1,3 +1,6 @@
+:root {
+    --color: #03e9f4; 
+  }
 .sectionLogos{
     display: flex;
     gap: 1.25rem;
@@ -11,5 +14,25 @@
         border-color: white;
         
     }
+    .icons{
+        display: flex;
+        background-color: white;
+        width: fit-content;
+        height: 2rem;
+        border-radius: .625rem;
+        border-color: white;
+        color: var(--color);
+        -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+        transition: 0.5s;
+        box-sizing: border-box;
+    }
+    .icons:hover{
+        background-color: var(--color);
+        color:black;
+        box-shadow:  0 0 .3125rem var(--color),
+        0 0 1.5625rem var(--color),
+        0 0 3.125rem var(--color),
+        0 0 6.25rem var(--color);
+    }
 }    
-    
+

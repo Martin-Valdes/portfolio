@@ -1,28 +1,21 @@
-import React, {useState} from 'react';
-import reactLogo from '../../assets/react.svg'
-import Acelerator from '../acelerator/Acelerator';
-import "./BackReact.scss"
+import React, { useState } from "react";
+import reactLogo from "../../assets/react.svg";
+import "./BackReact.scss";
 
 function BackReact() {
-  
-  const [memo, setMemo] = useState(30)
+  const [memo, setMemo] = useState(10);
 
-  const estilo = ( data) => {
-    setMemo(data)
-  }
+  const estilo = (data) => {
+    setMemo(data);
+  };
   const value = {
-    animation: `logo-spin infinite ${memo}s linear`
-  }
+    animation: `logo-spin infinite ${memo}s linear`,
+  };
   return (
     <>
-      <div className='symbolContainer'>
-        <Acelerator enviarDatos={estilo}/>
-        <div className='logoReact' target="_blank">
-          <img src={reactLogo} className="logo react" style={value} alt="React logo" />
-        </div>
-      </div>
+     
     </>
-  )
+  );
 }
 
-export default BackReact
+export default BackReact;

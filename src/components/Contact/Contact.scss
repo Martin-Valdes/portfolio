@@ -68,14 +68,20 @@
             resize: none;
             box-shadow: 0 0 10px rgb(184, 172, 4);
         }
-        .buttonSend{
+        .buttonSend {
             width: 6.25rem;
             height: 1.875rem;
             background-color: rgb(87, 226, 226);
             color: black;
             font-family: Poppins;
             font-weight: 600;
-        }
+            -webkit-box-reflect: below .0625rem linear-gradient(transparent, #0005);
+            box-shadow: 
+              0 0 .3125rem #03e9f4,
+              0 0 .9375rem #03e9f4,
+              0 0 1.875rem #03e9f4,
+              0 0 6.25rem #03e9f4;
+          }
     }
 }
 

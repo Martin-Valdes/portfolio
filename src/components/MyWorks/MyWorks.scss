@@ -21,7 +21,10 @@
             align-items: center;
             width: 100%;
             transition: 0.3s;
-            cursor: pointer;
+            .buttonTest{
+                color: white;
+                margin: 1.875rem;
+            }
             a{
                 display: flex;
                 flex-direction: row;
@@ -97,15 +100,9 @@
                 display: none;
             }
         }
-        .sectionCard:hover{
-            scale: 1.01;
-            
-        }
+
     }
-    .automotora:hover{
-        background-color: rgb(21, 7, 80);
-        
-    }
+    
     .ecommerce:hover{
         background-color: rgb(21, 7, 80);
     }

@@ -1,24 +1,23 @@
 import React, {useState} from 'react';
 import CountrySelect from '../CountrySelect/CountrySelect';
-import appFirebase from '../../data/ConfigFirebase.js'
-import { getFirestore, collection, addDoc} from 'firebase/firestore'
 import { MailIcon } from '@heroicons/react/solid';
 import { useTranslation } from 'react-i18next';
+import emailjs from "@emailjs/browser";
 
 import "./Contact.scss"
-
-const db = getFirestore(appFirebase)
 
 const Contact = () => {
 
   const {t} = useTranslation();
 
-  const [formData, setFormData] = useState({
-      email: '',
-      phone: '',
-      country: '',
-      message: ''
-    });
+  const initialFormData = {
+    email: '',
+    phone: '',
+    country: '',
+    message: ''
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
 
     const handleChange = (e) => {
       const { name, value } = e.target;
@@ -28,22 +27,26 @@ const Contact = () => {
       });
     };
     const handleSubmit = async (e) => {
-      e.preventDefault();
-      console.log(formData);
-      try {          
-          await addDoc(collection(db, 'portfolio'),{
-              ...formData
-            })
-        } catch (error) {
-          console.error('Error to send data:', error);
-        }
-        setFormData({
-            email: '',
-            phone: '',
-            country: '',
-            message: ''
-          });
-    };
+        e.preventDefault();
+
+        await
+        emailjs
+        .send(
+          import.meta.env.VITE_SERVICE_ID,
+          import.meta.env.VITE_TEMPLATE_ID,
+          formData,
+          import.meta.env.VITE_USER_ID
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            setFormData(initialFormData);
+          },
+          (error) => {
+            console.log(error);
+          }
+        );
+      };
     
 
   return (

@@ -1,5 +1,19 @@
+.appContainer {
+    position: relative;
+    z-index: 1;
+  }
+  
+  #tsparticles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
 .new{
     background-color: rgb(2,0,36);
+    z-index: 2;
     .textImgMedia{
         display: none;
     }
@@ -15,7 +29,7 @@
     z-index: 1;
     .homeContainer{ 
         width: 100%;
-        height: 100%;
+        height: fit-content;
         display: flex;
         justify-content: space-around;
         .textImg{
@@ -26,18 +40,22 @@
             .imgPerfil{
                 margin: 6.25rem 1.25rem 0 0;
                 border-radius: 6%;
-                width: 7.5rem;
-                height: 7.5rem;
-                filter: drop-shadow(10px 10px 30px  #61fad9);
-                background-color: rgba($color: #2e2d2d79, $alpha: 0.6);
+                width: 9.375rem;
+                height: 9.375rem;
+                filter:grayscale(100%);
+                
             }
             .secText{
-                margin-top: 6.25rem;
+                display: flex;
+                flex-direction: column;
+                margin-top: 9.375rem;
                 font-family: Poppins;
+                gap: .625rem;
                 .pName{
                     font-size: 1.875rem;
                     color: white;
                     margin: 0;
+  
                 }
                 .nFront{
                     font-weight: 1.375rem;
@@ -46,32 +64,67 @@
                 }
             }
         }
-        .pPresent{
+        .pPresent {
             display: flex;
+            justify-content: center;
             flex-direction: column;
-            align-items: center;
-            width: 100%;
+            align-items: flex-start;
+            width: 80%;
             color: white;
-            margin:0;
-            padding: .625rem;
+            margin: 0;
+            padding: 0;
             height: 25rem;
             border-radius: .625rem;
             font-size: 1.1875rem;
             gap: 1.875rem;
-            .pDescription{
-                margin-top: 0;
-                width: 100%; 
+          
+            .pDescription {
+              margin-top: 0;
+              font-family: Poppins;
+              width: 100%;
             }
-            .titlepParrapf{
-                font-size: 2.5rem;
-                margin: 0;
-                text-align: center;
-                font-family:Poppins;
-                font-weight: 18.75rem;
+          
+            h2 {
+              width: 100%;
+              position: relative;
+              color: rgb(24, 170, 114);
+              text-shadow: 
+                0 0 .125rem #006eff,
+                0 0 1.875rem #7787ac,
+                0 0 2.5rem #84a546;
+              font-size: 2.5rem;
+              margin: 0;
+              text-align: center;
+              font-family: Poppins;
+              font-weight: 18.75rem;
+              overflow: hidden;
+              padding: .625rem;
+              border-radius: 3.125rem;
             }
-        }
+          
+            h2::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: -100%;
+              width: 100%;
+              height: 100%;
+              background: linear-gradient(90deg, transparent, rgba(6, 108, 126, 0.945), transparent);
+              animation: swipe 3s linear infinite;
+            }
+          
+            @keyframes swipe {
+              0% {
+                left: -100%;
+              }
+              100% {
+                left: 100%;
+              }
+            }
+          }
         .sectionParrafoHome{
             order: 1;
+            width: 50%;
             .iconsSocial{
                 display: flex;
                 justify-content: flex-end;
@@ -91,6 +144,7 @@
         flex-direction: column;
         order: 1;
         width: 50%;
+        height: fit-content;
         .arrowHome{
             width: 25rem;
             height: 25rem;
