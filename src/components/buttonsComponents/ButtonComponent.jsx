@@ -42,7 +42,6 @@ const ButtonComponent = () => {
 
   return (
     <div className="content">
-      <h1>Bubble hover effect</h1>
       <div className="button_container">
         {["Link to Web Site", "GitHub"].map((text, index) => (
           <div className="button_su" ref={(el) => (buttonRefs.current[index] = el)} key={index}>

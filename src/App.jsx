@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import HomeContainer from './components/HomeContainer/HomeContainer';
+import HomeContainer from './components/HomeContainer/HomeContainer.jsx';
 import i18n from './components/traslation/Traslation.jsx';
 
 import './App.scss';

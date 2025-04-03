@@ -3,11 +3,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import  ButtonComponent  from "../buttonsComponents/ButtonComponent.jsx";
 
 import "./swiper.scss";
 
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
 export const SwiperComponent = ({ props }) => {
   return (
@@ -28,7 +29,8 @@ export const SwiperComponent = ({ props }) => {
           slideShadows: false,
         }}
         pagination={{ clickable: true }}
-        modules={[EffectCoverflow, Pagination]}
+        navigation={true} 
+        modules={[EffectCoverflow, Pagination, Navigation]}
         className="mySwiper"
       >
         {props.map((item, index) => (

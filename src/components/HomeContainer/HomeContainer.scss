@@ -156,13 +156,15 @@
     }
     @keyframes bounce {
         0% {
-            transform: translateY(0); /* Define la posición inicial */
+            transform: translateY(0);
         }
         100% {
-            transform: translateY(-15px); /* Define la posición final */
+            transform: translateY(-15px);
         }
     }
     .sectionWorks{
+        display: flex;
+        justify-content: center;
         width: 100%;
         
     }
